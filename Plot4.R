@@ -24,6 +24,6 @@ legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=
 a1$Global_reactive_power<-as.numeric(a1$Global_reactive_power)
 plot(a1$Global_reactive_power~a1$DT, type='l', xlab="datetime", ylab="Global_reactive_power")
 
-dev.copy(png, 'plot2.png')
+dev.copy(png, 'plot4.png')
 dev.off()
 
